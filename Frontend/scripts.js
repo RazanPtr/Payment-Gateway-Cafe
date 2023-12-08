@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const password = document.getElementById("password-login").value;
     
         try {
-        const response = await fetch("http://127.0.0.1:8000/token", {
+        const response = await fetch("https://cafein.whitecliff-184c41f4.southeastasia.azurecontainerapps.io/token", {
             method: "POST",
             headers: {
             "Content-Type": "application/x-www-form-urlencoded",
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
         formData.append("username", username);
         formData.append("password", password);
         try {
-            const response = await fetch("http://127.0.0.1:8000/users", {
+            const response = await fetch("https://cafein.whitecliff-184c41f4.southeastasia.azurecontainerapps.io/users", {
                 method: "POST",
                 headers: {
                     // Change Content-Type to "application/x-www-form-urlencoded"

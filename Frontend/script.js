@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
         formData.append("expyear", expyear);
         formData.append("amount", amount);
         try {
-            const response = await fetch("http://127.0.0.1:8000/payment", {
+            const response = await fetch("https://cafein.whitecliff-184c41f4.southeastasia.azurecontainerapps.io/payment", {
                 method: "POST",
                 headers: {
                     // Change Content-Type to "application/x-www-form-urlencoded"
