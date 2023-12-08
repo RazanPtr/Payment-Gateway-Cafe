@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         if (response.ok) {
             showNotificationOk("Welcome to Our Cafe")
-            window.location.href = "payment.html";
+            window.location.href = "home.html";
             document.getElementById("username-login").value = "";
             document.getElementById("password-login").value = "";
             loginloading.style.backgroundColor = '';
