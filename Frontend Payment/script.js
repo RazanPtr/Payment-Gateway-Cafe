@@ -75,19 +75,19 @@ document.addEventListener('DOMContentLoaded', function () {
                 window.location.href = "success.html";
 
                 //clear input value
-                // document.getElementById("fullname").value = "";
-                // document.getElementById("nameoncard").value = "";
-                // document.getElementById("emailaddress").value = "";
-                // document.getElementById("address").value = "";
-                // document.getElementById("city").value = "";
-                // document.getElementById("daybirth").value = "";
-                // document.getElementById("monthbirth").value = "";
-                // document.getElementById("yearbirth").value = "";
-                // document.getElementById("cardnumber").value = "";
-                // document.getElementById("cardcvv").value = "";
-                // document.getElementById("expmonth").value = "";
-                // document.getElementById("expyear").value = "";
-                // document.getElementById("amount").value = "";
+                document.getElementById("fullname").value = "";
+                document.getElementById("nameoncard").value = "";
+                document.getElementById("emailaddress").value = "";
+                document.getElementById("address").value = "";
+                document.getElementById("city").value = "";
+                document.getElementById("daybirth").value = "";
+                document.getElementById("monthbirth").value = "";
+                document.getElementById("yearbirth").value = "";
+                document.getElementById("cardnumber").value = "";
+                document.getElementById("cardcvv").value = "";
+                document.getElementById("expmonth").value = "";
+                document.getElementById("expyear").value = "";
+                document.getElementById("amount").value = "";
             } else {
                 // Registration failed, show error message
                 showNotification("Payment failed. Please try again.");
